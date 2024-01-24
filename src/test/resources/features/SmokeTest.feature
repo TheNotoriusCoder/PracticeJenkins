@@ -1,6 +1,6 @@
 Feature: this feature is for smoke test
 
-  @smoke
+  @smoke @regression
   Scenario: Smoke test
     Given I print hello world
     Then everybody is happy
